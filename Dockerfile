@@ -5,7 +5,7 @@ ENV GRADLE_HOME /usr/lib/gradle-$GRADLE_VER
 
 RUN set -x \
   && apt-get update \
-  && apt-get install -y --no-install-recommends ca-certificates git wget curl unzip
+  && apt-get install -y --no-install-recommends ca-certificates git wget curl unzip gettext
 
 RUN set -x \
   && apt-get update \
